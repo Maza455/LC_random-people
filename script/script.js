@@ -7,11 +7,11 @@ let people = [];
 
 fetch('https://randomuser.me/api?results=20')
   .then(response => response.json())
-//   .then(data => {
-//     people = data.results.slice(0, 20);
-//     displayPeople(people);
-//   })
-  .catch(error => console.error(error));
+   .then(data => {
+    people = data.results.slice(0, 20);
+    displayPeople(people);
+   })
+.catch(error => console.error(error));
 
 
 function displayPeople(people) {
