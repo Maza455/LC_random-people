@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+  
+input {
+    margin-bottom: 10px;
+}
+  
+#people {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.person {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+  
